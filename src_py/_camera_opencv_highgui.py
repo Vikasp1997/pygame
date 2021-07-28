@@ -14,14 +14,6 @@ def list_cameras():
     return [-1]
 
 
-def init():
-    pass
-
-
-def quit():
-    pass
-
-
 class Camera:
 
     def __init__(self, device=0, size=(640, 480), mode="RGB"):
